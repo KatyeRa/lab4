@@ -1,0 +1,171 @@
+body {
+  background: linear-gradient(to right, #FFC0CB 50%, #ffffff 0);
+  background-size: 50px 100%;
+}
+
+ul.nav{
+            margin-top: 30px;
+            margin-left: 100px;
+            margin-right: 100px;
+            padding-left: 0px;
+            list-style: none;
+        }
+ul.nav li {
+  margin:0%; /* Отступы вокруг элемента */
+  background: #FFA3E6; /* Цвет фона */
+  padding: 10px; /* Поля вокруг текста */
+ }
+ .nav li {
+  float: left;
+}
+ ul.nav a {
+    display: block;
+    width: 5em;
+    padding:10px;
+    text-decoration: none;
+    color: black;
+    font-family: Corbel Light;
+    text-align: center;
+}
+ul.nav a:hover{
+           background-color: #1ABD94;
+           color: black;
+       }/*Конец строки с навигацией*/
+
+
+
+.rectangle{
+  background: rgba(0, 0, 0, 0.8) ; /* Цвет фона */
+  width: auto;
+  height: 400px;
+  margin-top: 70px;
+}
+.rectangle{
+  float: left;
+}/*рамка текста заголовка*/
+
+.space {
+  margin-left: 870px;/*отступ от левого края*/
+  margin-right: 150px;/*отступ от правого края*/
+  margin-top: 0px;
+  padding: 20px;
+  background: rgba(255, 163, 230, 0.7) ; /* Цвет фона */
+  border: 2px solid  /* Параметры рамки */
+  width: 40px;
+      }
+
+h1,h2 {
+  text-align: center;
+  font-family: Corbel Light;
+  }
+
+.one{
+  text-align: center;
+  font-family: Corbel Light;
+}
+.two{
+  text-align: center;
+  font-family: Corbel Light;
+}
+.BG {
+         background-color: rgb( 67, 67, 67 );
+         position: absolute;
+         opacity: 0.4;
+         left: 0px;
+         top: 75px;
+         width: 1920px;
+         height: 880px;
+         z-index: 419;
+       }
+h3{
+  font-size: 48px;
+  font-family: "Sail";
+  color: rgb( 5, 168, 147 );
+  line-height: 1.208;
+  text-align: center;
+  position: absolute;
+  left: 816px;
+  top: 1058px;
+  width: 291px;
+  height: 44px;
+  z-index: 412;
+}
+.dolor{
+  font-size: 18px;
+  font-family: "Prata";
+  color: rgb( 122, 122, 122 );
+  line-height: 1.556;
+  text-align: center;
+  position: absolute;
+  left: 630px;
+  top: 1131px;
+  width: 660px;
+  height: 48px;
+  z-index: 409;
+}
+.name1{
+   font-size: 30px;
+   font-family: "Sail";
+   color: rgb( 5, 168, 147 );
+   line-height: 1.333;
+   position: absolute;
+   left: 422px;
+   top: 1290px;
+   width: 202px;
+   height: 26px;
+   z-index: 374;
+ }
+ .textname1{
+   font-size: 18px;
+   font-family: "Prata";
+   color: rgb( 102, 102, 102 );
+   line-height: 1.556;
+   position: absolute;
+   left: 427px;
+   top: 1373px;
+   width: 489px;
+   height: 76px;
+   z-index: 371;
+ }
+ .Image_bg {
+   background-color: rgb( 112, 112, 112 );
+   position: absolute;
+   left: 960px;
+   top: 1257px;
+   width: 585px;
+   height: 306px;
+   z-index: 379;
+ }
+.name2{
+  font-size: 30px;
+  font-family: "Sail";
+  color: rgb( 5, 168, 147 );
+  line-height: 1.333;
+  position: absolute;
+  left: 1003px;
+  top: 1629px;
+  width: 202px;
+  height: 24px;
+  z-index: 398;
+}
+.textname2{
+  font-size: 18px;
+  font-family: "Prata";
+  color: rgb( 102, 102, 102 );
+  line-height: 1.556;
+  position: absolute;
+  left: 1009px;
+  top: 1700px;
+  width: 489px;
+  height: 76px;
+  z-index: 395;
+}
+.Image_bg2 {
+  background-color: rgb( 112, 112, 112 );
+  position: absolute;
+  left: 375px;
+  top: 1562px;
+  width: 586px;
+  height: 308px;
+  z-index: 403;
+}
