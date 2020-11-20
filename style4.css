@@ -67,16 +67,7 @@ h1,h2 {
   text-align: center;
   font-family: Corbel Light;
 }
-.BG {
-         background-color: rgb( 67, 67, 67 );
-         position: absolute;
-         opacity: 0.4;
-         left: 0px;
-         top: 75px;
-         width: 1920px;
-         height: 880px;
-         z-index: 419;
-       }
+
 h3{
   font-size: 48px;
   font-family: "Sail";
@@ -88,7 +79,6 @@ h3{
   top: 1058px;
   width: 291px;
   height: 44px;
-  z-index: 412;
 }
 .dolor{
   font-size: 18px;
@@ -101,7 +91,6 @@ h3{
   top: 1131px;
   width: 660px;
   height: 48px;
-  z-index: 409;
 }
 .name1{
    font-size: 30px;
@@ -113,7 +102,6 @@ h3{
    top: 1290px;
    width: 202px;
    height: 26px;
-   z-index: 374;
  }
  .textname1{
    font-size: 18px;
@@ -125,7 +113,6 @@ h3{
    top: 1373px;
    width: 489px;
    height: 76px;
-   z-index: 371;
  }
  .Image_bg {
    background-color: rgb( 112, 112, 112 );
@@ -134,7 +121,6 @@ h3{
    top: 1257px;
    width: 585px;
    height: 306px;
-   z-index: 379;
  }
 .name2{
   font-size: 30px;
@@ -146,7 +132,6 @@ h3{
   top: 1629px;
   width: 202px;
   height: 24px;
-  z-index: 398;
 }
 .textname2{
   font-size: 18px;
@@ -158,7 +143,6 @@ h3{
   top: 1700px;
   width: 489px;
   height: 76px;
-  z-index: 395;
 }
 .Image_bg2 {
   background-color: rgb( 112, 112, 112 );
@@ -167,5 +151,625 @@ h3{
   top: 1562px;
   width: 586px;
   height: 308px;
-  z-index: 403;
+}
+
+h4 {
+  font-size: 48px;
+  font-family: "Sail";
+  color: rgb( 5, 168, 147 );
+  line-height: 1.208;
+  text-align: center;
+  position: absolute;
+  left: 650px;
+  top: 1870px;
+  width: 750px;
+  height: 44px;
+}
+.moments {
+  font-size: 18px;
+  font-family: "Prata";
+  color: rgb(122, 122, 122);
+  line-height: 1.556;
+  text-align: center;
+  position: absolute;
+  left: 694.293px;
+  top: 2000px;
+  width: 450px;
+  height: 48px;
+}
+
+.Image_bg3 {
+    background-color: rgb( 112, 112, 112 );
+    position: absolute;
+    left: 375px;
+    top: 2100px;
+    width: 850px;
+    height: 270px;
+  }
+.Image_bg4 {
+    background-color: rgb( 112, 112, 112 );
+    position: absolute;
+    left: 1250px;
+    top: 2100px;
+    width: 290px;
+    height: 270px;
+  }
+.Image_bg5 {
+    background-color: rgb( 112, 112, 112 );
+    position: absolute;
+    left: 375px;
+    top: 2400px;
+    width: 275px;
+    height: 570px;
+  }
+.Image_bg6 {
+    background-color: rgb( 112, 112, 112 );
+    position: absolute;
+    left: 675px;
+    top: 2400px;
+    width: 551px;
+    height: 270px;
+  }
+.Image_bg7 {
+    background-color: rgb( 112, 112, 112 );
+    position: absolute;
+    left: 1252px;
+    top: 2400px;
+    width: 290px;
+    height: 270px;
+  }
+.Image_bg8 {
+    background-color: rgb( 112, 112, 112 );
+    position: absolute;
+    left: 675px;
+    top: 2700px;
+    width: 870px;
+    height: 270px;
+  }
+
+h5 {
+ font-size: 48px;
+ font-family: "Sail";
+ color: rgb( 5, 168, 147 );
+ line-height: 1.208;
+ text-align: center;
+ position: absolute;
+ left: 650px;
+ top: 3000px;
+ width: 750px;
+ height: 44px;
+}
+.story_text {
+  font-size: 18px;
+  font-family: "Prata";
+  color: rgb(122, 122, 122);
+  line-height: 1.556;
+  text-align: center;
+  position: absolute;
+  left: 850px;
+  top: 3150px;
+  width: 400px;
+  height: 48px;
+}
+.january{
+    font-size: 18px;
+    font-family: "Prata";
+    color: rgb(95, 95, 95);
+    line-height: 1.556;
+    position: absolute;
+    left: 1120px;
+    top: 3400px;
+}
+.first {
+  font-size: 30px;
+  font-family: "Sail";
+  color: rgb(5, 168, 147);
+  line-height: 1.333;
+  position: absolute;
+  left: 1120px;
+  top: 3425px;
+}
+.text_first{
+  font-size: 18px;
+  font-family: "Prata";
+  color: rgb(122, 122, 122);
+  line-height: 1.556;
+  position: absolute;
+  left: 1120px;
+  top: 3500px;
+  width: 400px;
+  height: 52px;
+}
+.circle1 {
+    border-radius: 50%;
+    background-color: rgb(112, 112, 112);
+    position: absolute;
+    left: 374px;
+    top: 3350px;
+    width: 450px;
+    height: 450px;
+  }
+.read{
+  font-size: 20px;
+  font-family: "Prata";
+  color: rgb(5, 168, 147);
+  line-height: 1.5;
+  position: absolute;
+  left: 1120px;
+  top: 3750px;
+}
+
+
+.june{
+    font-size: 18px;
+    font-family: "Prata";
+    color: rgb(95, 95, 95);
+    line-height: 1.556;
+    position: absolute;
+    left: 375px;
+    top: 4000px;
+}
+.second {
+  font-size: 30px;
+  font-family: "Sail";
+  color: rgb(5, 168, 147);
+  line-height: 1.333;
+  position: absolute;
+  left: 375px;
+  top: 4025px;
+}
+.text_second {
+  font-size: 18px;
+  font-family: "Prata";
+  color: rgb( 102, 102, 102 );
+  line-height: 1.556;
+  position: absolute;
+  left: 375px;
+  top: 4075px;
+  width: 489px;
+  height: 76px;
+}
+.circle2{
+  border-radius: 50%;
+  background-color: rgb(5, 168, 147);
+  position: absolute;
+  left: 1120px;
+  top: 3934px;
+  width: 450px;
+  height: 450px;
+}
+.read2{
+  font-size: 20px;
+  font-family: "Prata";
+  color: rgb(5, 168, 147);
+  line-height: 1.5;
+  position: absolute;
+  left: 375px;
+  top: 4280px;
+}
+
+
+.august{
+    font-size: 18px;
+    font-family: "Prata";
+    color: rgb(95, 95, 95);
+    line-height: 1.556;
+    position: absolute;
+    left: 1120px;
+    top: 4500px;
+}
+.three {
+  font-size: 30px;
+  font-family: "Sail";
+  color: rgb(5, 168, 147);
+  line-height: 1.333;
+  position: absolute;
+  left: 1120px;
+  top: 4525px;
+}
+.text_three{
+  font-size: 18px;
+  font-family: "Prata";
+  color: rgb(122, 122, 122);
+  line-height: 1.556;
+  position: absolute;
+  left: 1120px;
+  top: 4600px;
+  width: 400px;
+  height: 52px;
+}
+.circle3 {
+    border-radius: 50%;
+    background-color: rgb(112, 112, 112);
+    position: absolute;
+    left: 374px;
+    top: 4475px;
+    width: 450px;
+    height: 450px;
+  }
+.read3{
+  font-size: 20px;
+  font-family: "Prata";
+  color: rgb(5, 168, 147);
+  line-height: 1.5;
+  position: absolute;
+  left: 1120px;
+  top: 4799px;
+}
+
+
+.march{
+    font-size: 18px;
+    font-family: "Prata";
+    color: rgb(95, 95, 95);
+    line-height: 1.556;
+    position: absolute;
+    left: 375px;
+    top: 5000px;
+}
+.four {
+  font-size: 30px;
+  font-family: "Sail";
+  color: rgb(5, 168, 147);
+  line-height: 1.333;
+  position: absolute;
+  left: 375px;
+  top: 5025px;
+}
+.text_four {
+  font-size: 18px;
+  font-family: "Prata";
+  color: rgb( 102, 102, 102 );
+  line-height: 1.556;
+  position: absolute;
+  left: 375px;
+  top: 5075px;
+  width: 489px;
+  height: 76px;
+}
+.circle4{
+  border-radius: 50%;
+  background-color: rgb(5, 168, 147);
+  position: absolute;
+  left: 1120px;
+  top: 5000px;
+  width: 450px;
+  height: 450px;
+}
+.read4{
+  font-size: 20px;
+  font-family: "Prata";
+  color: rgb(5, 168, 147);
+  line-height: 1.5;
+  position: absolute;
+  left: 375px;
+  top: 5270px;
+}
+
+h6{
+  font-size: 48px;
+  font-family: "Sail";
+  color: rgb( 5, 168, 147 );
+  line-height: 1.208;
+  text-align: center;
+  position: absolute;
+  left: 600px;
+  top: 5500px;
+  width: 750px;
+  height: 44px;
+}
+.Our_People {
+  font-size: 18px;
+  font-family: "Prata";
+  color: rgb(122, 122, 122);
+  line-height: 1.556;
+  text-align: center;
+  position: absolute;
+  left: 780px;
+  top: 5700px;
+  width: 400px;
+  height: 48px;
+}
+.groomsmen{
+  font-size: 30px;
+  font-family: "Sail";
+  color: rgb(93, 93, 93);
+  line-height: 0.867;
+  position: absolute;
+  left: 375px;
+  top: 5780px;
+}
+.bridesmaid {
+  font-size: 30px;
+  font-family: "Sail";
+  color: rgb(93, 93, 93);
+  line-height: 0.867;
+  position: absolute;
+  left: 1339px;
+  top: 5780px;
+}
+
+.Image_bg9 {
+  background-color: rgb(112, 112, 112);
+  position: absolute;
+  left: 375px;
+  top: 5900px;
+  width: 270px;
+  height: 270px;
+}
+.Image_bg10 {
+  background-color: rgb(112, 112, 112);
+  position: absolute;
+  left: 695px;
+  top: 5900px;
+  width: 270px;
+  height: 270px;
+}
+.Image_bg11 {
+  background-color: rgb(112, 112, 112);
+  position: absolute;
+  left: 1015px;
+  top: 5900px;
+  width: 270px;
+  height: 270px;
+}
+.Image_bg12 {
+  background-color: rgb(112, 112, 112);
+  position: absolute;
+  left: 1335px;
+  top: 5900px;
+  width: 270px;
+  height: 270px;
+}
+.Image_bg13 {
+  background-color: rgb(112, 112, 112);
+  position: absolute;
+  left: 375px;
+  top: 6220px;
+  width: 270px;
+  height: 270px;
+}
+.Image_bg14 {
+  background-color: rgb(112, 112, 112);
+  position: absolute;
+  left: 695px;
+  top: 6220px;
+  width: 270px;
+  height: 270px;
+}
+.Image_bg15 {
+  background-color: rgb(112, 112, 112);
+  position: absolute;
+  left: 1015px;
+  top: 6220px;
+  width: 270px;
+  height: 270px;
+}
+.Image_bg16 {
+  background-color: rgb(112, 112, 112);
+  position: absolute;
+  left: 1335px;
+  top: 6220px;
+  width: 270px;
+  height: 270px;
+}
+
+
+h7{
+  font-size: 48px;
+  font-family: "Sail";
+  color: rgb(5, 168, 147);
+  line-height: 0.542;
+  text-align: center;
+  position: absolute;
+  left: 680px;
+  top: 6650px;
+}
+.ceremony{
+  font-size: 18px;
+  font-family: "Prata";
+  color: rgb(122, 122, 122);
+  line-height: 1.556;
+  text-align: center;
+  position: absolute;
+  left: 780px;
+  top: 6725px;
+  width: 400px;
+  height: 48px;
+}
+.bg {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 375px;
+  top: 6880px;
+  width: 1200px;
+  height: 540px;
+}
+.friends {
+  font-size: 25px;
+  font-family: "Prata";
+  color: rgb(5, 168, 147);
+  line-height: 1.04;
+  position: absolute;
+  left: 420px;
+  top: 6900px;
+}
+.time{
+  font-size: 18px;
+  font-family: "Prata";
+  color: rgb(99, 99, 99);
+  line-height: 1.556;
+  position: absolute;
+  left: 420px;
+  top: 6960px;
+  width: 294px;
+  height: 102px;
+}
+.reception {
+  font-size: 25px;
+  font-family: "Prata";
+  color: rgb(5, 168, 147);
+  line-height: 1.04;
+  position: absolute;
+  left: 820px;
+  top: 6900px;
+}
+.time2{
+  font-size: 18px;
+  font-family: "Prata";
+  color: rgb(99, 99, 99);
+  line-height: 1.556;
+  position: absolute;
+  left: 820px;
+  top: 6960px;
+  width: 294px;
+  height: 102px;
+}
+.party {
+  font-size: 25px;
+  font-family: "Prata";
+  color: rgb(5, 168, 147);
+  line-height: 1.04;
+  position: absolute;
+  left: 1220px;
+  top: 6900px;
+}
+.time3{
+  font-size: 18px;
+  font-family: "Prata";
+  color: rgb(99, 99, 99);
+  line-height: 1.556;
+  position: absolute;
+  left: 1220px;
+  top: 6960px;
+  width: 294px;
+  height: 102px;
+}
+.friends2 {
+  font-size: 25px;
+  font-family: "Prata";
+  color: rgb(5, 168, 147);
+  line-height: 1.04;
+  position: absolute;
+  left: 420px;
+  top: 7180px;
+}
+.time4{
+  font-size: 18px;
+  font-family: "Prata";
+  color: rgb(99, 99, 99);
+  line-height: 1.556;
+  position: absolute;
+  left: 420px;
+  top: 7240px;
+  width: 294px;
+  height: 102px;
+}
+.reception2 {
+  font-size: 25px;
+  font-family: "Prata";
+  color: rgb(5, 168, 147);
+  line-height: 1.04;
+  position: absolute;
+  left: 820px;
+  top: 7180px;
+}
+.time5{
+  font-size: 18px;
+  font-family: "Prata";
+  color: rgb(99, 99, 99);
+  line-height: 1.556;
+  position: absolute;
+  left: 820px;
+  top: 7240px;
+  width: 294px;
+  height: 102px;
+}
+.party2 {
+  font-size: 25px;
+  font-family: "Prata";
+  color: rgb(5, 168, 147);
+  line-height: 1.04;
+  position: absolute;
+  left: 1220px;
+  top: 7180px;
+}
+.time6{
+  font-size: 18px;
+  font-family: "Prata";
+  color: rgb(99, 99, 99);
+  line-height: 1.556;
+  position: absolute;
+  left: 1220px;
+  top: 7240px;
+  width: 294px;
+  height: 102px;
+}
+
+.info {
+  font-size: 48px;
+  font-family: "Sail";
+  color: rgb(5, 168, 147);
+  line-height: 0.542;
+  text-align: center;
+  position: absolute;
+  left: 925px;
+  top: 7500px;
+}
+.text_info{
+  font-size: 18px;
+  font-family: "Prata";
+  color: rgb(122, 122, 122);
+  line-height: 1.556;
+  text-align: center;
+  position: absolute;
+  left: 900px;
+  top: 7600px;
+  width: 499px;
+  height: 48px;
+}
+.Name {
+  font-size: 30px;
+  font-family: "Prata";
+  color: rgb(136, 135, 135);
+  line-height: 1.3;
+  position: absolute;
+  left: 774px;
+  top: 7700px;
+}
+.email{
+  font-size: 30px;
+  font-family: "Prata";
+  color: rgb(136, 135, 135);
+  line-height: 1.3;
+  position: absolute;
+  left: 1000px;
+  top: 7700px;
+}
+.namber {
+  font-size: 30px;
+  font-family: "Prata";
+  color: rgb(136, 135, 135);
+  line-height: 1.3;
+  position: absolute;
+  left: 774px;
+  top: 7770px;
+}
+.us{
+  font-size: 30px;
+  font-family: "Prata";
+  color: rgb(136, 135, 135);
+  line-height: 1.3;
+  position: absolute;
+  left: 1090px;
+  top: 7770px;
+}
+button {
+  border-radius: 3px;
+  background-color: rgb(5, 168, 147);
+  position: absolute;
+  left: 1297px;
+  top: 7900px;
+  width: 220px;
+  height: 60px;
 }
