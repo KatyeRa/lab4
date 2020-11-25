@@ -4,29 +4,29 @@ body {
 }
 
 ul.nav{
-            margin-top: 30px;
-            margin-left: 100px;
-            margin-right: 100px;
-            padding-left: 0px;
-            list-style: none;
+  margin-top: 10px;
+  margin-left: 800px;
+  margin-right: 800px;
+  padding-left: 0px;
+  list-style: none;
         }
 ul.nav li {
-  margin:0%; /* Отступы вокруг элемента */
-  background: #FFA3E6; /* Цвет фона */
+  margin: 0; /* Отступы вокруг элемента */
+  background: #FFFFFF; /* Цвет фона */
   padding: 10px; /* Поля вокруг текста */
  }
- .nav li {
-  float: left;
+.nav li {
+  text-align: center;
 }
- ul.nav a {
-    display: block;
+ul.nav a {
+    display: inline;
     width: 5em;
     padding:10px;
     text-decoration: none;
     color: black;
     font-family: Corbel Light;
     text-align: center;
-}
+ }
 ul.nav a:hover{
            background-color: #1ABD94;
            color: black;
@@ -38,7 +38,7 @@ ul.nav a:hover{
   background: rgba(0, 0, 0, 0.8) ; /* Цвет фона */
   width: auto;
   height: 400px;
-  margin-top: 70px;
+  margin-top: 100px;
 }
 .rectangle{
   float: left;
@@ -54,6 +54,11 @@ ul.nav a:hover{
   width: 40px;
       }
 
+.now{
+  text-align: center;
+  margin-left: 500px;
+  margin-top: 200px;
+}
 h1,h2 {
   text-align: center;
   font-family: Corbel Light;
@@ -74,22 +79,42 @@ h3{
   color: rgb( 5, 168, 147 );
   line-height: 1.208;
   text-align: center;
-  position: absolute;
+  margin-left: 800px;/*отступ от левого края*/
+  margin-right: 400px;/*отступ от правого края*/
   left: 816px;
   top: 1058px;
   width: 291px;
   height: 44px;
 }
+.flowers{
+  float: right;
+  margin-left: 1500px;/*отступ от левого края*/
+  margin-right: 0px;/*отступ от правого края*/
+  margin-top: 0px;
+  width: 193px;
+  height: 491px;
+}
+
+.travka{
+  float: left;
+  margin-left: 0px;/*отступ от левого края*/
+  margin-right: 1500px;/*отступ от правого края*/
+  margin-top: 1190px;
+  width: 159px;
+  height: 463px;
+}
+
 .dolor{
   font-size: 18px;
   font-family: "Prata";
   color: rgb( 122, 122, 122 );
   line-height: 1.556;
   text-align: center;
-  position: absolute;
+  margin-left: 700px;/*отступ от левого края*/
+  margin-right: 400px;/*отступ от правого края*/
   left: 630px;
   top: 1131px;
-  width: 660px;
+  width: 400px;
   height: 48px;
 }
 .name1{
@@ -97,8 +122,8 @@ h3{
    font-family: "Sail";
    color: rgb( 5, 168, 147 );
    line-height: 1.333;
-   position: absolute;
-   left: 422px;
+   margin-left: 500px;/*отступ от левого края*/
+   margin-right: 400px;/*отступ от правого края*/
    top: 1290px;
    width: 202px;
    height: 26px;
@@ -108,17 +133,17 @@ h3{
    font-family: "Prata";
    color: rgb( 102, 102, 102 );
    line-height: 1.556;
-   position: absolute;
-   left: 427px;
-   top: 1373px;
+   margin-left: 427px;/*отступ от левого края*/
+   margin-right: 400px;/*отступ от правого края*/
+   margin-top: 100px;
    width: 489px;
    height: 76px;
  }
  .Image_bg {
    background-color: rgb( 112, 112, 112 );
-   position: absolute;
-   left: 960px;
-   top: 1257px;
+   margin-left: 960px;/*отступ от левого края*/
+   margin-right: 500px;/*отступ от правого края*/
+   margin-top: -100px;
    width: 585px;
    height: 306px;
  }
@@ -127,9 +152,7 @@ h3{
   font-family: "Sail";
   color: rgb( 5, 168, 147 );
   line-height: 1.333;
-  position: absolute;
-  left: 1003px;
-  top: 1629px;
+  margin-left: 1010px;
   width: 202px;
   height: 24px;
 }
@@ -138,17 +161,15 @@ h3{
   font-family: "Prata";
   color: rgb( 102, 102, 102 );
   line-height: 1.556;
-  position: absolute;
-  left: 1009px;
-  top: 1700px;
+  margin-left: 1003px;
+  margin-top: 5px;
   width: 489px;
   height: 76px;
 }
 .Image_bg2 {
   background-color: rgb( 112, 112, 112 );
-  position: absolute;
-  left: 375px;
-  top: 1562px;
+  margin-left: 375px;
+  margin-top: 0px;
   width: 586px;
   height: 308px;
 }
@@ -177,7 +198,6 @@ h4 {
   width: 450px;
   height: 48px;
 }
-
 .Image_bg3 {
     background-color: rgb( 112, 112, 112 );
     position: absolute;
@@ -580,10 +600,10 @@ h7{
 .bg {
   background-color: rgb(255, 255, 255);
   position: absolute;
-  left: 375px;
-  top: 6880px;
-  width: 1200px;
-  height: 540px;
+  left: 415px;
+  top: 6900px;
+  width: 260px;
+  height: 190px;
 }
 .friends {
   font-size: 25px;
@@ -605,6 +625,15 @@ h7{
   width: 294px;
   height: 102px;
 }
+
+.bg2 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 815px;
+  top: 6900px;
+  width: 260px;
+  height: 190px;
+}
 .reception {
   font-size: 25px;
   font-family: "Prata";
@@ -624,6 +653,15 @@ h7{
   top: 6960px;
   width: 294px;
   height: 102px;
+}
+
+.bg3 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 1220px;
+  top: 6900px;
+  width: 260px;
+  height: 190px;
 }
 .party {
   font-size: 25px;
@@ -645,6 +683,15 @@ h7{
   width: 294px;
   height: 102px;
 }
+
+.bg4 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 420px;
+  top: 7180px;
+  width: 260px;
+  height: 190px;
+}
 .friends2 {
   font-size: 25px;
   font-family: "Prata";
@@ -665,6 +712,15 @@ h7{
   width: 294px;
   height: 102px;
 }
+
+.bg5 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 820px;
+  top: 7180px;
+  width: 260px;
+  height: 190px;
+}
 .reception2 {
   font-size: 25px;
   font-family: "Prata";
@@ -684,6 +740,15 @@ h7{
   top: 7240px;
   width: 294px;
   height: 102px;
+}
+
+.bg6 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 1220px;
+  top: 7180px;
+  width: 260px;
+  height: 190px;
 }
 .party2 {
   font-size: 25px;
@@ -715,6 +780,29 @@ h7{
   position: absolute;
   left: 925px;
   top: 7500px;
+}
+.flowerss{
+  float: right;
+  margin-left: 1500px;/*отступ от левого края*/
+  margin-right: 0px;/*отступ от правого края*/
+  margin-top: 1060px;
+  width: 201px;
+  height: 438px;
+}
+.flowers2{
+  float: left;
+  margin-left: 555px;
+  margin-top: -400px;
+  width: 201px;
+  height: 438px;
+}
+.fl{
+  background-color: rgb(152, 152, 152);
+  float: left;
+  margin-left: -800px;
+  margin-top: -400px;
+  width: 600px;
+  height: 438px;
 }
 .text_info{
   font-size: 18px;
