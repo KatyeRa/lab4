@@ -9,7 +9,7 @@ ul.nav{
   margin-right: 800px;
   padding-left: 0px;
   list-style: none;
-        }
+  }
 ul.nav li {
   margin: 0; /* Отступы вокруг элемента */
   background: #FFFFFF; /* Цвет фона */
@@ -319,7 +319,6 @@ h5 {
   top: 3750px;
 }
 
-
 .june{
     font-size: 18px;
     font-family: "Prata";
@@ -368,7 +367,6 @@ h5 {
   top: 4280px;
 }
 
-
 .august{
     font-size: 18px;
     font-family: "Prata";
@@ -416,7 +414,6 @@ h5 {
   left: 1120px;
   top: 4799px;
 }
-
 
 .march{
     font-size: 18px;
@@ -574,6 +571,16 @@ h6{
   height: 270px;
 }
 
+.end {
+  position: absolute;
+  top: 6610px;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(255,255,255);
+  width: 1900px;
+  height: 1560px;
+  z-index: -10;
+}
 
 h7{
   font-size: 48px;
@@ -597,178 +604,149 @@ h7{
   width: 400px;
   height: 48px;
 }
+
 .bg {
-  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  padding: 10px 10px 10px 10px;
+  background-color: rgb(255,255,255);
   position: absolute;
   left: 415px;
   top: 6900px;
-  width: 260px;
+  width: 265px;
   height: 190px;
 }
-.friends {
-  font-size: 25px;
+.bg{
+  font-size: 22px;
   font-family: "Prata";
   color: rgb(5, 168, 147);
-  line-height: 1.04;
+  line-height: 30px;
   position: absolute;
   left: 420px;
   top: 6900px;
 }
-.time{
-  font-size: 18px;
-  font-family: "Prata";
-  color: rgb(99, 99, 99);
-  line-height: 1.556;
-  position: absolute;
-  left: 420px;
-  top: 6960px;
-  width: 294px;
-  height: 102px;
+.bg:hover{
+  color: rgb(255,255,255);
+  background-color: rgb(5, 168, 147);
+  transition: 0.3s;
 }
 
+
 .bg2 {
-  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  padding: 10px 10px 10px 10px;
   position: absolute;
-  left: 815px;
+  left: 820px;
   top: 6900px;
-  width: 260px;
+  width: 265px;
   height: 190px;
 }
-.reception {
-  font-size: 25px;
+.bg2{
+  font-size: 22px;
   font-family: "Prata";
   color: rgb(5, 168, 147);
-  line-height: 1.04;
+  line-height: 30px;
   position: absolute;
   left: 820px;
   top: 6900px;
 }
-.time2{
-  font-size: 18px;
-  font-family: "Prata";
-  color: rgb(99, 99, 99);
-  line-height: 1.556;
-  position: absolute;
-  left: 820px;
-  top: 6960px;
-  width: 294px;
-  height: 102px;
+.bg2:hover{
+  color: rgb(255,255,255);
+  background-color: rgb(5, 168, 147);
+  transition: 0.3s;
 }
 
 .bg3 {
-  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  padding: 10px 10px 10px 10px;
   position: absolute;
   left: 1220px;
   top: 6900px;
-  width: 260px;
+  width: 265px;
   height: 190px;
 }
-.party {
-  font-size: 25px;
+.bg3 {
+  font-size: 22px;
   font-family: "Prata";
   color: rgb(5, 168, 147);
-  line-height: 1.04;
+  line-height: 30px;
   position: absolute;
   left: 1220px;
   top: 6900px;
 }
-.time3{
-  font-size: 18px;
-  font-family: "Prata";
-  color: rgb(99, 99, 99);
-  line-height: 1.556;
-  position: absolute;
-  left: 1220px;
-  top: 6960px;
-  width: 294px;
-  height: 102px;
+.bg3:hover{
+  color: rgb(255,255,255);
+  background-color: rgb(5, 168, 147);
+  transition: 0.3s;
 }
-
 .bg4 {
-  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  padding: 10px 10px 10px 10px;
   position: absolute;
   left: 420px;
   top: 7180px;
-  width: 260px;
+  width: 265px;
   height: 190px;
 }
-.friends2 {
-  font-size: 25px;
+.bg4 {
+  font-size: 22px;
   font-family: "Prata";
   color: rgb(5, 168, 147);
-  line-height: 1.04;
+  line-height: 30px;
   position: absolute;
   left: 420px;
   top: 7180px;
 }
-.time4{
-  font-size: 18px;
-  font-family: "Prata";
-  color: rgb(99, 99, 99);
-  line-height: 1.556;
-  position: absolute;
-  left: 420px;
-  top: 7240px;
-  width: 294px;
-  height: 102px;
+.bg4:hover{
+  color: rgb(255,255,255);
+  background-color: rgb(5, 168, 147);
+  transition: 0.3s;
 }
 
 .bg5 {
-  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  padding: 10px 10px 10px 10px;
   position: absolute;
   left: 820px;
   top: 7180px;
-  width: 260px;
+  width: 265px;
   height: 190px;
 }
-.reception2 {
-  font-size: 25px;
+.bg5 {
+  font-size: 22px;
   font-family: "Prata";
   color: rgb(5, 168, 147);
-  line-height: 1.04;
+  line-height: 30px;
   position: absolute;
   left: 820px;
   top: 7180px;
 }
-.time5{
-  font-size: 18px;
-  font-family: "Prata";
-  color: rgb(99, 99, 99);
-  line-height: 1.556;
-  position: absolute;
-  left: 820px;
-  top: 7240px;
-  width: 294px;
-  height: 102px;
+.bg5:hover{
+  color: rgb(255,255,255);
+  background-color: rgb(5, 168, 147);
+  transition: 0.3s;
 }
-
 .bg6 {
-  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  padding: 10px;
   position: absolute;
   left: 1220px;
   top: 7180px;
   width: 260px;
   height: 190px;
 }
-.party2 {
-  font-size: 25px;
+.bg6 {
+  font-size: 22px;
   font-family: "Prata";
   color: rgb(5, 168, 147);
-  line-height: 1.04;
+  line-height: 30px;
   position: absolute;
   left: 1220px;
   top: 7180px;
 }
-.time6{
-  font-size: 18px;
-  font-family: "Prata";
-  color: rgb(99, 99, 99);
-  line-height: 1.556;
-  position: absolute;
-  left: 1220px;
-  top: 7240px;
-  width: 294px;
-  height: 102px;
+.bg6:hover{
+  color: rgb(255,255,255);
+  background-color: rgb(5, 168, 147);
+  transition: 0.3s;
 }
 
 .info {
@@ -816,41 +794,42 @@ h7{
   width: 499px;
   height: 48px;
 }
-.Name {
+
+.name{
+  border: 1px;
+  padding: 5px;
   font-size: 30px;
   font-family: "Prata";
-  color: rgb(136, 135, 135);
-  line-height: 1.3;
   position: absolute;
   left: 774px;
   top: 7700px;
 }
 .email{
+  border: 1px;
+  padding: 5px;
   font-size: 30px;
   font-family: "Prata";
-  color: rgb(136, 135, 135);
-  line-height: 1.3;
-  position: absolute;
-  left: 1000px;
-  top: 7700px;
-}
-.namber {
-  font-size: 30px;
-  font-family: "Prata";
-  color: rgb(136, 135, 135);
-  line-height: 1.3;
   position: absolute;
   left: 774px;
-  top: 7770px;
+  top: 7750px;
 }
-.us{
+.numb {
+  border: 1px;
+  padding: 5px;
   font-size: 30px;
   font-family: "Prata";
-  color: rgb(136, 135, 135);
-  line-height: 1.3;
   position: absolute;
-  left: 1090px;
-  top: 7770px;
+  left: 774px;
+  top: 7800px;
+}
+.us{
+  border: 1px;
+  padding: 5px;
+  font-size: 30px;
+  font-family: "Prata";
+  position: absolute;
+  left: 774px;
+  top: 7850px;
 }
 button {
   border-radius: 3px;
