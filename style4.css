@@ -50,7 +50,7 @@ ul.nav a:hover{
   margin-top: 0px;
   padding: 20px;
   background: rgba(255, 163, 230, 0.7) ; /* Цвет фона */
-  border: 2px solid  /* Параметры рамки */
+  border: 2px solid;  /* Параметры рамки */
   width: 40px;
       }
 
@@ -761,24 +761,25 @@ h7{
 }
 .flowerss{
   float: right;
-  margin-left: 1500px;/*отступ от левого края*/
+  margin-left: 1700px;/*отступ от левого края*/
   margin-right: 0px;/*отступ от правого края*/
-  margin-top: 1060px;
+  margin-top: 900px;
   width: 201px;
   height: 438px;
 }
 .flowers2{
   float: left;
   margin-left: 555px;
-  margin-top: -400px;
+  margin-top: -490px;
   width: 201px;
   height: 438px;
 }
 .fl{
   background-color: rgb(152, 152, 152);
   float: left;
-  margin-left: -800px;
-  margin-top: -400px;
+  position: absolute;
+  left: 0px;
+  top: 7541px;
   width: 600px;
   height: 438px;
 }
@@ -796,7 +797,7 @@ h7{
 }
 
 .name{
-  border: 1px;
+  border-bottom: 1px;
   padding: 5px;
   font-size: 30px;
   font-family: "Prata";
@@ -805,7 +806,7 @@ h7{
   top: 7700px;
 }
 .email{
-  border: 1px;
+  border-bottom: 1px;
   padding: 5px;
   font-size: 30px;
   font-family: "Prata";
@@ -814,7 +815,7 @@ h7{
   top: 7750px;
 }
 .numb {
-  border: 1px;
+  border-bottom: 1px;
   padding: 5px;
   font-size: 30px;
   font-family: "Prata";
@@ -823,7 +824,7 @@ h7{
   top: 7800px;
 }
 .us{
-  border: 1px;
+  border-bottom: 1px;
   padding: 5px;
   font-size: 30px;
   font-family: "Prata";
@@ -832,7 +833,6 @@ h7{
   top: 7850px;
 }
 button {
-  border-radius: 3px;
   background-color: rgb(5, 168, 147);
   position: absolute;
   left: 1297px;
