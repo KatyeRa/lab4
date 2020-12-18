@@ -797,7 +797,9 @@ h7{
 }
 
 .name{
-  border-bottom: 1px;
+  border-style: none;
+  border-bottom-style: outset;
+  border-bottom-width: thin;
   padding: 5px;
   font-size: 30px;
   font-family: "Prata";
@@ -806,7 +808,9 @@ h7{
   top: 7700px;
 }
 .email{
-  border-bottom: 1px;
+  border-style: none;
+  border-bottom-style: outset;
+  border-bottom-width: thin;
   padding: 5px;
   font-size: 30px;
   font-family: "Prata";
@@ -815,25 +819,30 @@ h7{
   top: 7750px;
 }
 .numb {
-  border-bottom: 1px;
+  border-style: none;
+  border-bottom-style: outset;
+  border-bottom-width: thin;
   padding: 5px;
   font-size: 30px;
   font-family: "Prata";
   position: absolute;
-  left: 774px;
-  top: 7800px;
+  left: 1200px;
+  top: 7700px;
 }
 .us{
-  border-bottom: 1px;
+  border-style: none;
+  border-bottom-style: outset;
+  border-bottom-width: thin;
   padding: 5px;
   font-size: 30px;
   font-family: "Prata";
   position: absolute;
-  left: 774px;
-  top: 7850px;
+  left: 1200px;
+  top: 7750px;
 }
 button {
   background-color: rgb(5, 168, 147);
+  padding-bottom: none;
   position: absolute;
   left: 1297px;
   top: 7900px;
